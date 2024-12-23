@@ -5,16 +5,16 @@ import './App.css'
 
 function App() {
 
-const [selecttime,setSelecttime]=useState(0);
-  const[text,setText]=useState("")
-const[index,setIndex]=useState(0);
-const [speed,setSpeed]=useState(0);
-const [time,setTime]=useState(10)
-const[start,setStart] = useState(false);
-const[button,setButton]=useState("Start Now")
-const[accuracy,setAccuracy]=useState(0);
- const paragraph= 'The remarkable scientist discovered innovative solutions that significantly enhanced technological progress. Meanwhile, environmental challenges emerged, prompting researchers to investigate sustainable methods. Collaborative efforts among diverse teams fostered breakthroughs, ultimately contributing to global advancements. As they navigated complex systems, individuals demonstrated resilience and adaptability, ensuring the continuation of critical projects. Exciting developments awaited, inspiring future generations to pursue knowledge and creativity..'
- const words= paragraph.split(' ')
+// const [selecttime,setSelecttime]=useState(0);
+//   const[text,setText]=useState("")
+// const[index,setIndex]=useState(0);
+// const [speed,setSpeed]=useState(0);
+// const [time,setTime]=useState(10)
+// const[start,setStart] = useState(false);
+// const[button,setButton]=useState("Start Now")
+// const[accuracy,setAccuracy]=useState(0);
+//  const paragraph= 'The remarkable scientist discovered innovative solutions that significantly enhanced technological progress. Meanwhile, environmental challenges emerged, prompting researchers to investigate sustainable methods. Collaborative efforts among diverse teams fostered breakthroughs, ultimately contributing to global advancements. As they navigated complex systems, individuals demonstrated resilience and adaptability, ensuring the continuation of critical projects. Exciting developments awaited, inspiring future generations to pursue knowledge and creativity..'
+//  const words= paragraph.split(' ')
  
  useEffect(()=>{            // user gives the input time 
   setTime(selecttime);
