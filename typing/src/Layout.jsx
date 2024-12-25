@@ -8,7 +8,7 @@ export default function Layout(){
   const [difficulty,setDifficulty]= useState("Easy");
 
   const changeTime=(e)=>{
-    setTime(e.target.value);
+    setTime((Number)(e.target.value));
   }
 
   const changeDifficulty= (e)=>{
